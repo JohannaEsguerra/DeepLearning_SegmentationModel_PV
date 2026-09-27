@@ -3,22 +3,24 @@ Automation of rooftop solar panel detection and segmentation from satellite imag
 
 ## Hyperparameters:
 
-experiment | lr | batch size | # epochs | dataset_size
-1 | 0.001 | 8 | 100 | 304
-2 | 0.0001 | 40 | 200 | 304
-3 | 0.0001 | 40 | 200 | 527
-4 | 0.001 | 8 | 100 | 527
-5 | 0.0000 | 60 | 300 | 527
-6 | 0.01 | 40 | 200 |527
-7 | 0.0001 | 20 | 200 | 161 (100% of images have solar panels)
+## Hyperparameters
 
-Authors:
+| Experiment | Learning Rate | Batch Size | Epochs | Dataset Size |
+|-----------:|--------------:|-----------:|-------:|-------------:|
+| 1 | 0.001 | 8 | 100 | 304 |
+| 2 | 0.0001 | 40 | 200 | 304 |
+| 3 | 0.0001 | 40 | 200 | 527 |
+| 4 | 0.001 | 8 | 100 | 527 |
+| 5 | 0.0000 | 60 | 300 | 527 |
+| 6 | 0.01 | 40 | 200 | 527 |
+| 7 | 0.0001 | 20 | 200 | 161* | *100% of images have solar panels.*
 
-Acosta Vega Monica
-Esguerra Montaña Johanna
-Martínez García Emerson
-- - - - - - -  - - - --  - -
-Master Photogrammetry and Geoinformatics
-Hochschule für Technik Stuttgart
+## Authors
 
-Juni 2024
+**Monica Acosta Vega**  
+**Johanna Esguerra Montaña**  
+**Emerson Martínez García**
+
+M.Sc. Photogrammetry and Geoinformatics  
+Hochschule für Technik Stuttgart (HFT Stuttgart)  
+June 2024
